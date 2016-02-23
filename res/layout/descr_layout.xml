@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/front"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:tag="front" >
+
+    <TextView
+        android:id="@+id/descrText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#F00"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        />
+
+ <ListView
+        android:id="@+id/listViewDescr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:background="#FFFFFF"
+        >
+
+    </ListView>
+
+
+</LinearLayout>
